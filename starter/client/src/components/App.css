@@ -1,0 +1,41 @@
+.apptitle {
+  margin: 1rem 0;
+  color: #ff2968;
+}
+
+.todolist {
+  padding-left: 0;
+}
+.todolist .todoitem {
+  position: relative;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  
+}
+strike {
+  color: #999;
+}
+
+.todolist .todoitem.highlight:last-child {
+  border-color: #ff2968;
+}
+
+.delete {
+  border : none;
+}
+
+.todolist .todoitem .btn-danger {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.todolist .todoitem .form-check-label {
+  width: 100%;
+}
+.todolist .todoitem .form-check-label .form-check-input {
+  margin-right: 1rem;
+}
+
+.lightgray {
+  color: lightgray;
+}
